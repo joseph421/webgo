@@ -4,6 +4,14 @@
 
 <web-app>
 	<display-name>Archetype Created Web Application</display-name>
+	<!--module config -->
+	
+	<!--
+	<context-param>
+		<param-name>moduleContextPath</param-name>
+		<param-value>${joe.home}/apps/webgo/conf/module-config.xml</param-value>
+	</context-param>
+	-->
 	<!--
 	<servlet>
 		<servlet-name>hessionService</servlet-name>
