@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module name="webgo">
+	<properties>
+		<property name="parentConfigFile" value="${joe.home}/conf/module-config.xml" />
+	</properties>	
+	 <!--
+	<listeners>
+		<listener class="joe.webgo.model.ModuleListenerImpl" />					  	
+	</listeners>
+ 	-->
+ <!--
+	<services>		
+		<service name="kbService" class="co.service.webservice.JaxRpcServiceByAxisImp">
+			<properties>
+				<property name="@configName" value="trainingbase.service@webservice" />
+			</properties>
+		</service>		
+	</services>
+	-->
+
+</module>
+

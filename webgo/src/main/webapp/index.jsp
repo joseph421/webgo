@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<canvas id="background" width="1000" height="400"></canvas>
 </body>
 </html>
