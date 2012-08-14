@@ -2,8 +2,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>joe</groupId>
   <artifactId>webgo</artifactId>
+  <name>webgo application</name>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  <url>http://maven.apache.org</url>
   <build>
   	<plugins>
   		<plugin>
