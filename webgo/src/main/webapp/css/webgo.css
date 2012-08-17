@@ -10,8 +10,12 @@ header{
 }
 
 //----------Content area
-content{
-	
+.main{
+		
+}
+
+#goboard{
+	background: url(images/goboard.jpg) top repeat-x;
 }
 
 //----------Footer area

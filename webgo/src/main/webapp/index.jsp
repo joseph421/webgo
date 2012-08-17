@@ -9,18 +9,29 @@
 		<link rel="stylesheet" href="css/buttons.css">
 		<link rel="stylesheet" href="css/themes/sunny/jquery.ui.all.css">
 		<script type="text/javascript" src="js/jquery/jquery-1.8.0.js"></script>
+		<script type="text/javascript" src="js/joe/goboard.js"></script>
 		<script type="text/javascript" src="js/joe/maingui.js"></script>
 	</head>
 	<body>
-		<header></header>
-		<a href="#" data-icon="★" class="button pink serif skew">首页</a>		
-		<a href="#" data-icon="✿" class="button green oval">死活题</a>
-		<a href="#" data-icon="✰" class="button orange shield xl">对局</a>
-		<a href="#" data-icon="♛" class="button brackets drop">棋谱</a>
-		<a href="#" data-icon="☂" class="button blue">返回</a>
+		<header>			
+			<a href="#" data-icon="★" class="button pink serif skew">首页</a>		
+			<a href="#" data-icon="✿" class="button green oval" onclick="showBoard(900,900);">死活题</a>
+			<a href="#" data-icon="✰" class="button orange shield xl">对局</a>
+			<a href="#" data-icon="♛" class="button brackets drop">棋谱</a>
+			<a href="#" data-icon="☂" class="button blue">返回</a>			
+		</header>
 		
-		<canvas id="background" width="1000" height="400"></canvas>
-		
+        <nav>  
+            <!-- ... -->  
+        </nav>  
+      
+        <div class="main">  
+            <canvas id="goboard" width="1000" height="400"></canvas>  
+        </div>  
+      
+        <footer>  
+            <!-- ... -->  
+        </footer>  
 		
 	</body>
 </html>
