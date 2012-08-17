@@ -61,7 +61,7 @@ var setStar = function(beginX , beginY , endX , endY , context2d){
 	drawPoint(context2d,p);
 	
 	//right top star
-	p[0] = (beginX + 720);
+	p[0] = (beginX + 600);
 	p[1] = (beginY + 120);	
 	drawPoint(context2d,p);
 	
@@ -76,21 +76,21 @@ var setStar = function(beginX , beginY , endX , endY , context2d){
 	drawPoint(context2d,p);
 	
 	//middle right star
-	p[0] = (beginX + 720);
+	p[0] = (beginX + 600);
 	p[1] = (beginY + 360);
 	drawPoint(context2d,p);
 	
 	//left bottom star
 	p[0] = (beginX + 120);
-	p[1] = (beginY + 720);
+	p[1] = (beginY + 600);
 	drawPoint(context2d,p);
 	
 	//middle bottom star
 	p[0] = (beginX + 360);
-	p[1] = (beginY + 720);
+	p[1] = (beginY + 600);
 	drawPoint(context2d,p);
 	
-	p[0] = (beginX + 720);
-	p[1] = (beginY + 720);
+	p[0] = (beginX + 600);
+	p[1] = (beginY + 600);
 	drawPoint(context2d,p);
 }
