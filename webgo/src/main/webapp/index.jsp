@@ -15,7 +15,7 @@
 	<body>
 		<header>			
 			<a href="#" data-icon="★" class="button pink serif skew">首页</a>		
-			<a href="#" data-icon="✿" class="button green oval" onclick="showBoard(900,900);">死活题</a>
+			<a href="#" data-icon="✿" class="button green oval" onclick="showBoard(80,80,800,800);">死活题</a>
 			<a href="#" data-icon="✰" class="button orange shield xl">对局</a>
 			<a href="#" data-icon="♛" class="button brackets drop">棋谱</a>
 			<a href="#" data-icon="☂" class="button blue">返回</a>			
@@ -26,7 +26,7 @@
         </nav>  
       
         <div class="main">  
-            <canvas id="goboard" width="1000" height="400"></canvas>  
+            <canvas id="goboard" width="1000" height="900"></canvas>  
         </div>  
       
         <footer>  
