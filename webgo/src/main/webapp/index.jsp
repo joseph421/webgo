@@ -5,7 +5,8 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<title>Insert title here</title>
-		<script type="text/javascript" src="js/ext4/ext-all.js"></script>
+		<link rel="stylesheet" href="../css/themes/redmond/jquery.ui.all.css">
+		<script type="text/javascript" src="js/jquery/jquery-1.8.0.js"></script>
 		<script type="text/javascript" src="js/joe/maingui.js"></script>
 	</head>
 	<body>
