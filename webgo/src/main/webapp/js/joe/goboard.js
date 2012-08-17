@@ -1,6 +1,7 @@
-var getAllstarOfBoard = function(width,height){
-	var allStar = {};
-
+var getAllstarOfBoard = function(beginX , beginY , width , height){
+	var allStar = {"goboard":[
+		{"x":beginX,"y":beginY},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]};
+	
 	//
 	return allStar;
 }
