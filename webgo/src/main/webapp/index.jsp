@@ -5,7 +5,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Joseph在线围棋练习</title>
-		<link rel="shortcut icon" href="images/joelogo.ico">
+		<link rel="shortcut icon" href="images/chinchilla.ico">
 		<link rel="stylesheet" href="css/buttons.css">
 		<link rel="stylesheet" href="css/themes/sunny/jquery.ui.all.css">
 		<script type="text/javascript" src="js/jquery/jquery-1.8.0.js"></script>
@@ -13,8 +13,14 @@
 	</head>
 	<body>
 		<header></header>
-		<a href="#" data-icon="" class="button green">Blog</a>
-		<a href="#" data-icon="" class="button green shield xl">练习</a>
+		<a href="#" data-icon="★" class="button pink serif skew">首页</a>		
+		<a href="#" data-icon="✿" class="button green oval">死活题</a>
+		<a href="#" data-icon="✰" class="button orange shield xl">对局</a>
+		<a href="#" data-icon="♛" class="button brackets drop">棋谱</a>
+		<a href="#" data-icon="☂" class="button blue">返回</a>
+		
 		<canvas id="background" width="1000" height="400"></canvas>
+		
+		
 	</body>
 </html>
